@@ -1,0 +1,49 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* GLOBAL CENTERING */
+.center-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* COMMON CARD */
+.card {
+  width: 350px;
+  padding: 30px;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* INPUTS */
+.input {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+/* BUTTON */
+.btn {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #667eea;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #5563d1;
+}
