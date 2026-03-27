@@ -23,7 +23,7 @@ const HomePage = ({ cart, setCart }) => {
 
       {/* 🔝 NAVBAR */}
       <div className="navbar">
-        <h2 className="logo">ShopX</h2>
+        <h2 className="logo">Asii Store</h2>
 
         <input
           type="text"

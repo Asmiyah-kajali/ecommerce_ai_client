@@ -8,7 +8,7 @@ const LandingPage = () => {
 
   return (
     <div className="landing-container">
-      <h1 className="title">ShopX</h1>
+      <h1 className="title">Asii Store</h1>
       <p className="subtitle">Modern E-Commerce Experience</p>
 
       <div className="buttons">
